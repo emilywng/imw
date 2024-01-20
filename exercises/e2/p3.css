@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(235, 229, 210);
+}
+.painting-2{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows:repeat(24,1fr);
+}
+
+.black{
+    background-color: #132F34
+}
+.mustard{
+    background-color: #D3A63C;
+}
+.peach{
+    background-color: #F3C1A3;
+}
+.red{
+    background-color: #A8472C;
+}
+.teal{
+    background-color: #3D7D7C;
+}
+.mint{
+    background-color: #7AB0AD;
+}
+.white{
+    background-color: #E7E9EB;
+}
