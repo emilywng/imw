@@ -1,0 +1,68 @@
+.adobe-font{
+    font-family: "p22-nudgewink-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    animation-duration: 1s;
+    animation-name: jump;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0;
+    margin-block: 20px 90px;
+    position: absolute;
+}
+/*jumping animation*/
+@keyframes jump{
+    from {
+      margin-top: 30%;
+      width: 100%;
+    }
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+}
+
+.google-font{
+    font-family: "sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    animation: rotating 7s infinite;
+    margin: 0;
+    margin-block: 200px 300px;
+    position: absolute;
+    left:150px;
+    color:red;
+}
+/*rotating animation*/
+@keyframes rotating{
+    40%{transform: rotate(180deg);}
+}
+
+.self-hosted{
+    font-family: "ShadowHand", sans-serif;
+    position: absolute;
+    left:500px;
+    top: 100px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    color: rgb(215, 82, 233);
+
+    &:hover{
+        color:rgb(63, 192, 243);
+        font-size: 7em;
+        transition: font-size .5s ease;
+
+    }
+}
+
+@font-face {
+	font-family: 'ShadowHand';
+	src: url('fonts/ShadowHand.ttf') format('truetype');
+}
+
