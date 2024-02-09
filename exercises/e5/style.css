@@ -1,7 +1,7 @@
 /* STYLES FOR RESPONSIVE DEMO */
 
 body {
-    background: #F6EA14;
+    background: #e743ec;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,50 +12,80 @@ body {
 h1 {
     /* Constraint text size between 48px and 100px */
     font-size: clamp(48px, 15vw, 300px);
-    font-family: 'Xanh Mono';
+    font-family: 'Protest Strike';
 }
 
-img {
+h2{
+    font-size: clamp(48px, 15vw, 300px);
+    font-family: 'Marck Script';
+    display:none;
+}
+
+.img1{
     /* Hides image on desktop */
     display: none;
+}
+
+.img2{
+    /* Hides image on desktop */
+    display: none;  
+    background:url('images/cat-kiss.gif');
 }
 
 /* Desktop First Approach for Responsiveness */
 
 @media (max-width: 1199px) {
     body {
-        background: black;
-        color: white;
+        background: rgb(248, 201, 46);
+    }
+    h1{
+        display:none;
+    }
+    .img1 {
+        display: block;
+    }
+    .img2 {
+        display: none;
     }
 }
 
 @media (max-width: 991px) {
     body {
 
-        background: blue;
+        background: rgb(78, 58, 255);
         color: white;
     }
 
-    h1 {
-        display: none;
+    h2 {
+        display: block;
     }
 
-    img {
-        display: block;
+    .img1{
+        display:none;
+    }
+
+    .img2{
+        display:none;
     }
 }
 
 @media (max-width: 767px) {
     body {
-        background: red;
-        color: black;
+        background: rgb(160, 58, 207);
     }
 
-    h1 {
-        display: block;
-    }
-
-    img {
+    h1{
         display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .img1{
+        display:none;
+    }
+    .img2 {
+        display: block;
     }
 }
