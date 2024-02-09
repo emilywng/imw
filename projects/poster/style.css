@@ -1,66 +1,119 @@
 *{
     margin:0;
     padding:0;
-    background-color: white;
 }
 
 body{
     font-family: 'Inconsolata', monospace;
-	src: url('Inconsolata.ttf') format('truetype');
+	src: url('fonts/Inconsolata.ttf') format('truetype');
 }
 
 header{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #2A2A2A;
     display: flex;
     padding: 20px 50px;
     justify-content: start;
 }
 
+/* Monday Night Seminars */
 .page-name{
-    font-size: 12px;
+    font-size: 14px;
     color: #CD362E;
+    &:hover{
+        color: #2A2A2A;
+    }
 }
 
-.primary-text{
-    display: grid;
+/* ascii computer */
+.computer-section{
+    position:absolute;
+    z-index: -1;
+    padding: 0px 0px 0px 150px;
+    opacity: 40%;
+}
+
+/* Largest text */
+h1{
     padding: 50px 50px;
     font-size: 64px;
     font-weight: 600;
+    border: solid 1px black;
 
+    &:hover{
+        font-weight:400;
+        color:#2A2A2A;
+    }
+
+    
 }
-main{
+/* Subheaders */
+h2{
+    font-size:24px;
+    justify-content: space-around;
+    padding: 30px 50px;
+    color: #2A2A2A;
+}
+
+/* footer text */
+h3{
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    right:200px;
+}
+/* paragraphs + subheaders */
+.paragraphs{
     display: flex;
+    margin-top: 0%;
+    margin-right: 25%;
     flex-wrap: nowrap;
-    flex-direction: row;
-    grid-template-columns: (1,1);
-    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    z-index: 1;
 }
 
+/* paragraphs */
 p{
     padding: 0px 50px;
     font-size: 16px;
     font-weight: 400;
-    position:relative;
+    line-height: 30px;
 }
 
-.computer-section{
-    display: block;
+/* black highlighted text */
+highlight{
+    background-color: #2A2A2A; opacity: 10%;
+    color: #ffffff; opacity: 100%;
+    &:hover{
+        font-size: 2em;
+        transition: font-size .5s ease;
+        background-color: #e02b22;
+    }
 }
 
-.clickable{
-    display:flex;
-    padding: 0px 50px;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 320px;
     
 }
 
-.button-to-next-page{
+/* call to action */
+.button{
+    width: 350px;
+    height: 50px;
+    background-color: #e02b22;
+    text-align: center;
+    transition: 0.3s;
     color: white;
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    line-height:50px;
+
+    &:hover{
+        background-color: white;
+        border: 1px solid #101010;
+        color: #2A2A2A;
+    }
 }
