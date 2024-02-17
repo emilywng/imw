@@ -1,0 +1,11 @@
+body{
+    font-family: 'Inconsolata', monospace;
+	src: url('fonts/Inconsolata.ttf') format('truetype');
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    line-height: 40px;
+    font-weight: 400;
+}

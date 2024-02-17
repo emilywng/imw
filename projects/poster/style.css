@@ -29,7 +29,6 @@ header{
 .computer-section{
     position:absolute;
     z-index: -1;
-    padding: 0px 0px 0px 150px;
     opacity: 40%;
 }
 
@@ -38,7 +37,7 @@ h1{
     padding: 50px 50px;
     font-size: 64px;
     font-weight: 600;
-    border: solid 1px black;
+    border: solid 2px black;
 
     &:hover{
         font-weight:400;
@@ -67,7 +66,7 @@ h3{
 .paragraphs{
     display: flex;
     margin-top: 0%;
-    margin-right: 25%;
+    margin-right: 30%;
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: space-between;
@@ -94,9 +93,7 @@ highlight{
 }
 
 .footer{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
     padding: 50px 320px;
     
 }
