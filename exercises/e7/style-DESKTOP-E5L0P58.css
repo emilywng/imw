@@ -1,0 +1,20 @@
+div {
+    background: #b977d1;
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    float: left;
+  }
+  div.still {
+    background: #345;
+    width: 5px;
+  }
+  div.hider {
+    display: none;
+  }
+  span {
+    color: red;
+  }
+  p {
+    clear: left;
+  }
