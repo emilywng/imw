@@ -1,8 +1,8 @@
 h1{
     font-family: "M PLUS Rounded 1c", sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 
 p{
@@ -10,7 +10,7 @@ p{
     font-size: 24px;
     margin-top: 30px;
     margin-left: 100px;
-    max-width: 700px;
+    max-width: 670px;
 }
 
 /* drawing the airplane in 7 lines */
