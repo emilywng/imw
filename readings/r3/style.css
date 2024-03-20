@@ -1,0 +1,91 @@
+h1{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 100px;
+    max-width: 700px;
+}
+
+/* drawing the airplane in 7 lines */
+.airplane .line1{
+    width: 120px;
+    height: 2px;
+    top: 200px;
+    left: 79px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(150deg);
+}
+.airplane .line2{
+    width: 50px;
+    height: 2px;
+    top: 233px;
+    left: 87px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(8deg);
+}
+.airplane .line3{
+    width: 87px;
+    height: 2px;
+    top: 203px;
+    left: 121px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(129deg);
+}
+.airplane .line4{
+    width: 95px;
+    height: 2px;
+    top: 215px;
+    left: 129px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(108deg);
+}
+.airplane .line5{
+    width: 36px;
+    height: 2px;
+    top: 248px;
+    left: 131px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(-137deg);
+}
+.airplane .line6{
+    width: 23px;
+    height: 2px;
+    top: 248px;
+    left: 125px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(90deg);
+}
+.airplane .line7{
+    width: 18px;
+    height: 2px;
+    top: 251px;
+    left: 132px;
+    background-color: black;
+    position: absolute;
+	transform: rotate(-60deg);
+}
+
+.airplane{
+    position: relative;
+    animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 300px;transform: rotate(20deg);}
+    75%  {left: 100px; transform: rotate(1turn);}
+    100% {left: 200px;}
+  }
