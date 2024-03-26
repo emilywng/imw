@@ -1,11 +1,9 @@
-/* *{
+*{
     margin-top: 3%;
 
-} */
+}
 body{
     background-color: #d0e1ff;
-    width:100%;
-    height:100%;
 }
 /* drawing of apple */
 .apple .stem{
@@ -14,8 +12,9 @@ body{
     width: 86px;
     background-color: #423131;
     transform: rotate(96deg);
+    top: 50px;
+    left: 678px;
     position: absolute;
-    top: -105px;
     border-radius: 10px;
 }
 .apple .red1{
@@ -25,8 +24,8 @@ body{
     border-radius: 80%;
     transform: rotate(96deg);
     position: absolute;
-    margin-top: -65px;
-    left: -250px;
+    margin-top: 80px;
+    left: 420px;
 }
 .apple .red2{
     height: 370px;
@@ -35,8 +34,8 @@ body{
     border-radius: 80%;
     transform: rotate(100deg);
     position: absolute;
-    margin-top: -65px;
-    left: -90px;
+    margin-top: 80px;
+    left: 580px;
 }
 .apple .face{
     height: 250px;
@@ -44,16 +43,17 @@ body{
     background-color: #fff9ec;
     border-radius: 50%;
     position: absolute;
-    right: -215px;
+    margin-top: 135px;
+    left: 535px;
 }
 .apple .shine{
     height: 18px;
     width: 72px;
     background-color: #ffffff;
     transform: rotate(45deg);
-    margin-top: -25px;
+    margin-top: 140px;
     position: absolute;
-    left: 135px;
+    left: 835px;
     border-radius: 10px;
 }
 .apple .eye1{
@@ -62,8 +62,8 @@ body{
     background-color: #000000;
     border-radius: 50%;
     position: absolute;
-    margin-top: 65px;
-    left: -30px;
+    margin-top: 200px;
+    left: 635px;
 }
 .apple .eye2{
     height: 30px;
@@ -71,8 +71,8 @@ body{
     background-color: #000000;
     border-radius: 50%;
     position: absolute;
-    margin-top: 65px;
-    left: 65px;
+    margin-top: 200px;
+    left: 745px;
 }
 .apple .smile{
     width:70px; 
@@ -82,8 +82,8 @@ body{
     border-radius: 50%/100px 100px 0 0;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 9px;
-    left: -8px;
+    margin-top: 144px;
+    left: 664px;
 }
 .apple .blush1{
     width:22px; 
@@ -91,8 +91,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: -115px;
+    margin-top: 240px;
+    left: 555px;
     border-radius: 10px;
 }
 .apple .blush2{
@@ -101,8 +101,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: -95px;
+    margin-top: 240px;
+    left: 575px;
     border-radius: 10px;
 }
 .apple .blush3{
@@ -111,8 +111,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: -75px;
+    margin-top: 240px;
+    left: 595px;
     border-radius: 10px;
 }
 .apple .blush4{
@@ -121,8 +121,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: 115px;
+    margin-top: 240px;
+    left: 790px;
     border-radius: 10px;
 }
 .apple .blush5{
@@ -131,8 +131,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: 135px;
+    margin-top: 240px;
+    left: 810px;
     border-radius: 10px;
 }
 .apple .blush6{
@@ -141,8 +141,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 105px;
-    left: 155px;
+    margin-top: 240px;
+    left: 830px;
     border-radius: 10px;
 }
 
@@ -152,7 +152,7 @@ body{
     height: 300px;
     border-radius: 40px;
     position: absolute;
-    left: -300px;
+    left: 357px;
     top: 200px;
     background-color: #FFE99A;
     opacity: 75%;
@@ -163,8 +163,8 @@ body{
     color: #d30b0b;
     width: 650px;
     position: absolute;
-    left: -260px;
-    top: 200px;
+    left: 390px;
+    top: 220px;
 }
 
 /* clickable answers */
@@ -174,7 +174,7 @@ body{
     background-color: #94e081;
     border-radius: 50%;
     position: absolute;
-    left: -190px;
+    left: 480px;
     top: 380px;
     font-family: "Coiny", system-ui;
     font-size: 30px;
@@ -193,7 +193,7 @@ body{
     background-color: #554343;
     border-radius: 50%;
     position: absolute;
-    left: 150px;
+    left: 790px;
     top: 380px;
     font-family: "Coiny", system-ui;
     font-size: 30px;
@@ -206,35 +206,14 @@ body{
     animation-fill-mode: forwards;
 }
 
-/* apple */
+/* animations */
+/* apple animation */
 .apple{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     animation: bounce 10s ease infinite;
-    margin: -25px 0 0 -25px ;
 }
-
-/* text box */
-.text{
-    position: absolute;
-    justify-content: center;
-    animation: op 4s;
-    top: 30%;
-    left: 50%;
-    margin: -25px 0 0 -25px ;
-}
-
-/* ovals */
-.clickable{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin: -25px 0 0 -25px ;
-}
-
-/* animations */
-
 @keyframes bounce {
 	0% { transform-origin: center;}
     25% {margin-top: -5%; margin-left: 10%;}
@@ -243,6 +222,22 @@ body{
     100% { transform-origin: center;}
 }
 
+/* text box animation */
+.text{
+    position: absolute;
+    justify-content: center;
+    animation: op 4s;
+    top: 50%;
+    left: 50%;
+    /* animation: grow 2s ease infinite; */
+}
+
+/* ovals */
+.clickable{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 @keyframes op {
     from {opacity:0%;transform: scaleY(-8);}
     to {opacity: 100%;transform: scaleY(1);}
