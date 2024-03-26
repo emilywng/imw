@@ -7,6 +7,7 @@ body{
 }
 /* drawing of apple */
 .apple .stem{
+    
     height: 21px;
     width: 86px;
     background-color: #423131;
@@ -174,7 +175,7 @@ body{
     border-radius: 50%;
     position: absolute;
     left: 480px;
-    top: 470px;
+    top: 380px;
     font-family: "Coiny", system-ui;
     font-size: 30px;
     text-align: center;
@@ -193,7 +194,7 @@ body{
     border-radius: 50%;
     position: absolute;
     left: 790px;
-    top: 470px;
+    top: 380px;
     font-family: "Coiny", system-ui;
     font-size: 30px;
     text-align: center;
@@ -209,6 +210,8 @@ body{
 /* apple animation */
 .apple{
     position: absolute;
+    top: 10%;
+    left: 10%;
     animation: bounce 10s ease infinite;
 }
 @keyframes bounce {
@@ -224,7 +227,16 @@ body{
     position: absolute;
     justify-content: center;
     animation: op 4s;
+    top: 10%;
+    left: 10%;
     /* animation: grow 2s ease infinite; */
+}
+
+/* ovals */
+.clickable{
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 @keyframes op {
     from {opacity:0%;transform: scaleY(-8);}
@@ -236,8 +248,4 @@ body{
     50% {opacity: 100%; transform: translateX(0px) rotate(0deg) translateY(0px);}
     75% {opacity: 100%; transform: translateX(-10px) rotate(-10deg) translateY(-5px);}
     100% {opacity: 100%; transform: translateX(0px) rotate(0deg) translateY(0px);}
-    /* 70% {opacity: 100%; transform: translateX(10px) rotate(10deg) translateY(5px);}
-    80% {opacity: 100%; transform: translateX(0px) rotate(0deg) translateY(0px);}
-    90% {opacity: 100%; transform: translateX(-10px) rotate(-10deg) translateY(-5px);}
-    100% {opacity: 100%; transform: translateX(0px) rotate(0deg) translateY(0px);} */
-  }
+}
