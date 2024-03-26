@@ -1,8 +1,8 @@
-*{
-    margin-top: 1%;
-}
+
 body{
     background-color: #d0e1ff;
+    width:100%;
+    height:100%;
 }
 /* drawing of apple */
 .apple .stem{
@@ -10,9 +10,8 @@ body{
     width: 86px;
     background-color: #423131;
     transform: rotate(96deg);
-    top: 100px;
-    left: 678px;
     position: absolute;
+    top: -105px;
     border-radius: 10px;
 }
 .apple .red1{
@@ -22,8 +21,8 @@ body{
     border-radius: 80%;
     transform: rotate(96deg);
     position: absolute;
-    margin-top: 110px;
-    left: 420px;
+    margin-top: -65px;
+    left: -250px;
 }
 .apple .red2{
     height: 370px;
@@ -32,8 +31,8 @@ body{
     border-radius: 80%;
     transform: rotate(100deg);
     position: absolute;
-    margin-top: 110px;
-    left: 580px;
+    margin-top: -65px;
+    left: -90px;
 }
 .apple .face{
     height: 250px;
@@ -41,17 +40,16 @@ body{
     background-color: #fff9ec;
     border-radius: 50%;
     position: absolute;
-    margin-top: 165px;
-    left: 535px;
+    right: -215px;
 }
 .apple .shine{
     height: 18px;
     width: 72px;
     background-color: #ffffff;
     transform: rotate(45deg);
-    margin-top: 170px;
+    margin-top: -25px;
     position: absolute;
-    left: 835px;
+    left: 135px;
     border-radius: 10px;
 }
 .apple .eye1{
@@ -62,8 +60,8 @@ body{
     border-radius: 50%/100px 100px 0 0;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 150px;
-    left: 615px;
+    margin-top: -10px;
+    left: -50px;
 }
 .apple .eye2{
     width:55px; 
@@ -73,8 +71,8 @@ body{
     border-radius: 50%/100px 100px 0 0;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 150px;
-    left: 735px;
+    margin-top: -10px;
+    left: 50px;
 }
 .apple .frown{
     width:70px; 
@@ -83,8 +81,8 @@ body{
     border-color:#000 transparent transparent transparent;
     border-radius: 50%/100px 100px 0 0;
     position: absolute;
-    margin-top: 260px;
-    left: 664px;
+    margin-top: 100px;
+    left: -8px;
 }
 .apple .blush1{
     width:22px; 
@@ -92,8 +90,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 555px;
+    margin-top: 105px;
+    left: -115px;
     border-radius: 10px;
 }
 .apple .blush2{
@@ -102,8 +100,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 575px;
+    margin-top: 105px;
+    left: -95px;
     border-radius: 10px;
 }
 .apple .blush3{
@@ -112,8 +110,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 595px;
+    margin-top: 105px;
+    left: -75px;
     border-radius: 10px;
 }
 .apple .blush4{
@@ -122,8 +120,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 790px;
+    margin-top: 105px;
+    left: 115px;
     border-radius: 10px;
 }
 .apple .blush5{
@@ -132,8 +130,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 810px;
+    margin-top: 105px;
+    left: 135px;
     border-radius: 10px;
 }
 .apple .blush6{
@@ -142,8 +140,8 @@ body{
     background-color: #ffacd3;
     transform: rotate(127deg);
     position: absolute;
-    margin-top: 270px;
-    left: 830px;
+    margin-top: 105px;
+    left: 155px;
     border-radius: 10px;
 }
 
@@ -173,6 +171,15 @@ body{
     position: absolute;
 }
 
+/* apple position*/
+.apple{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -25px 0 0 -25px ;
+}
+
+/* arrow */
 .arrow{
     position: absolute;
     animation: bounce 2s ease infinite;
@@ -185,11 +192,12 @@ body{
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     border: 3px solid rgb(88, 216, 255);
     transform: rotate(-45deg);
-    top: 320px;
-    left: 630px;
+    top: 360px;
+    left: 910px;
     background-color: rgb(88, 216, 255);
     position: absolute;
     animation: drop 3s ease infinite;
+    margin: -25px 0 0 -25px ;
 }
 
 /* teardrop animation */

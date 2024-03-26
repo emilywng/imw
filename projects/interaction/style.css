@@ -1,7 +1,4 @@
-/* *{
-    margin-top: 3%;
 
-} */
 body{
     background-color: #d0e1ff;
     width:100%;
@@ -9,7 +6,6 @@ body{
 }
 /* drawing of apple */
 .apple .stem{
-    
     height: 21px;
     width: 86px;
     background-color: #423131;
