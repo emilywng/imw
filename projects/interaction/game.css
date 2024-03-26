@@ -1,9 +1,16 @@
+*{
+    margin: 1%;
+}
 body{
     font-family: "Coiny", system-ui;
     font-size: 40px;
     background-color: #9DD0FF;
-    height: 100%;
-    overflow:hidden;
+    
+}
+
+.score{
+    position: absolute;
+    left:100px;
 }
 
 .progressbar {
@@ -11,6 +18,7 @@ body{
     margin: 25px auto;
     border: solid 1px #000;
   }
+  
 .progressbar .inner {
     height: 15px;
     animation: progressbar-countdown;

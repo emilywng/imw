@@ -1,0 +1,25 @@
+*{
+    margin: 1%;
+}
+body{
+    font-family: "Coiny", system-ui;
+    font-size: 40px;
+    background-color: #9DD0FF;
+    align-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+button{
+    left: 1100px;
+    top: 435px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Coiny", system-ui;
+
+}
