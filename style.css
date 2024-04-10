@@ -1,8 +1,385 @@
-
-
-h1{
+body {
     font-family: "Nanum Pen Script", cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+h1 {
     font-weight: 400;
-    font-style: normal;
-    font-size: 120px;
+    font-size: 150px;
+    margin: 3%;
+    text-align: center;
+    z-index: 0;
+    color:rgb(22, 56, 158);
+}
+
+/* scribble image for heading */
+#scribble1 {
+    position: absolute;
+    height: 200px;
+    width: 1700px;
+    margin-left: 5%;
+    top: 50px;
+    z-index: -1;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* names for portraits (exercises/readings/projects) */
+p {
+    display: block;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1%;
+    position: relative;
+}
+
+/* eyes for item1 */
+.item1 .eye1 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 140px;
+}
+
+.item1 .eye2 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 200px;
+}
+
+/* hover animation */
+.item1:hover {
+    .eye1 {
+        animation: slide infinite 2s;
+    }
+
+    .eye2 {
+        animation: slide infinite 2s;
+    }
+}
+
+/* eyes for item2 */
+.item2 .eye1 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 140px;
+}
+
+.item2 .eye2 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 200px;
+}
+
+/* hover animation */
+.item2:hover {
+    .eye1 {
+        animation: bounce infinite 2s;
+    }
+
+    .eye2 {
+        animation: bounce infinite 2s;
+    }
+}
+
+/* eyes for item3 */
+.item3 .eye1 {
+    height: 22px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 145px;
+}
+
+.item3 .eye2 {
+    height: 22px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 200px;
+}
+
+/* hover animation */
+.item3:hover {
+    .eye1 {
+        animation: slide infinite 2s;
+    }
+
+    .eye2 {
+        animation: slide infinite 2s;
+    }
+}
+
+/* eyes for item4 */
+.item4 .eye1 {
+    height: 12px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 140px;
+}
+
+.item4 .eye2 {
+    height: 12px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 215px;
+}
+
+/* hover animation */
+.item4:hover {
+    .eye1 {
+        animation: slide 4s infinite;
+    }
+
+    .eye2 {
+        animation: slide 4s infinite;
+    }
+}
+
+/* line for eyes */
+.item4 .line1 {
+    height: 6px;
+    width: 27px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 212px;
+    margin-left: 135px;
+}
+
+.item4 .line2 {
+    height: 6px;
+    width: 27px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 212px;
+    margin-left: 210px;
+}
+
+/* eyes for item5 */
+.item5 .eye1 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 140px;
+}
+
+.item5 .eye2 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 190px;
+}
+
+/* hover animation */
+.item5:hover {
+    .eye1 {
+        animation: slide infinite 2s;
+    }
+
+    .eye2 {
+        animation: slide infinite 2s;
+    }
+}
+
+/* eyes for item6 */
+.item6 .eye1 {
+    height: 10px;
+    width: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 140px;
+}
+
+.item6 .eye2 {
+    height: 10px;
+    width: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 195px;
+}
+
+/* hover animation */
+.item6:hover {
+    .eye1 {
+        animation: slide infinite 2s;
+    }
+
+    .eye2 {
+        animation: slide infinite 2s;
+    }
+}
+
+/* eyes for item7 */
+.item7 .eye1 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 140px;
+}
+
+.item7 .eye2 {
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 190px;
+}
+
+/* hover animation */
+.item7:hover {
+    .eye1 {
+        animation: bounce infinite 2s;
+    }
+
+    .eye2 {
+        animation: bounce infinite 2s;
+    }
+}
+
+/* eyes for item8 */
+.item8 .eye1 {
+    height: 23px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.item8 .eye2 {
+    height: 23px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 195px;
+}
+
+/* hover animation */
+.item8:hover {
+    .eye1 {
+        animation: slide infinite 2s;
+    }
+
+    .eye2 {
+        animation: slide infinite 2s;
+    }
+}
+
+/* next page arrow */
+.arrow {
+    position: absolute;
+    margin-left: 93%;
+    top: 20px;
+}
+
+/* animations */
+@keyframes slide {
+    0% {
+        transform-origin: center;
+    }
+
+    33% {
+        transform: translateX(10px);
+    }
+
+    66% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform-origin: center;
+    }
+
+    33% {
+        transform: translateY(10px);
+    }
+
+    66% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shrink {
+    0% {}
+
+    33% {
+        width: 10px;
+    }
+
+    66% {
+        height: 10px;
+    }
+}
+
+@keyframes circle {
+    0% {}
+
+    50% {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
 }

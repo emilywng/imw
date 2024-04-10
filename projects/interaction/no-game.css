@@ -155,7 +155,7 @@ body{
     border-right: 40px solid #3f2fab;
     border-left: 0;
     margin-left: 30px;
-    position:absolute;
+    /* position:absolute; */
 }
 .arrow .rectangle{
     width:80px; 
@@ -168,7 +168,7 @@ body{
     text-align: center;
     line-height: 43px;
     color: white;
-    position: absolute;
+   
 }
 
 /* apple position*/
