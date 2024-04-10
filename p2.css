@@ -341,15 +341,6 @@ p {
     position: absolute;
 }
 
-/* heart */
-#heart {
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-}
-
 /* animations */
 @keyframes slide {
     0% {
